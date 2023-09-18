@@ -1,0 +1,254 @@
+
+.encabezado{
+
+    display: flex;
+    justify-content: space-between;
+    height: 66px;
+    width: 100%;
+}
+
+
+.letras_head{
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    height: 35px;
+
+    border-bottom: 2px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    font-family: 'Sarpanch', sans-serif;
+}
+
+.about_me{
+
+    background: black;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+}
+
+.projects{
+
+    background: black;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+}
+
+.contact_me{
+
+    background: black;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+}
+
+.download_cv{
+
+
+    background:black;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+}
+
+
+.logos_redes{
+    position: relative;
+    top: 5px; 
+    left: 10px; 
+    width: 220px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.gitHub{
+    margin: -2px;
+    border-radius: 50%;
+    padding: 2px;
+    box-shadow: 0px 2px 10px rgb(255, 255, 255);
+    transition: .3s ease;
+
+}
+
+.gitHub:hover{
+
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+
+    box-shadow: 0 0 20px rgb(255, 255, 255),
+                0 0 30px rgb(255, 255, 255),
+                0 0 20px rgb(0, 0, 0),
+                0 0 5px rgb(0, 0, 0);
+                
+
+}
+
+.ig{
+    margin: -2px;
+    border-radius: 50%;
+    padding: 2px;
+    box-shadow: 0px 2px 10px rgb(255, 255, 255);
+    transition: .3s ease;
+
+}
+
+.ig:hover{
+
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+
+    box-shadow: 0 0 20px rgb(255, 255, 255),
+                0 0 30px rgb(255, 255, 255),
+                0 0 20px rgb(0, 0, 0),
+                0 0 5px rgb(0, 0, 0);
+                
+
+}
+
+.facebook{
+    margin: -2px;
+    border-radius: 50%;
+    padding: 2px;
+    box-shadow: 0px 2px 10px rgb(255, 255, 255);
+    transition: .3s ease;
+
+}
+
+.facebook:hover{
+
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+
+    box-shadow: 0 0 20px rgb(255, 255, 255),
+                0 0 30px rgb(255, 255, 255),
+                0 0 20px rgb(0, 0, 0),
+                0 0 5px rgb(0, 0, 0);
+                
+
+}
+
+.twitter{
+    margin: -2px;
+    border-radius: 50%;
+    padding: 2px;
+    box-shadow: 0px 2px 10px rgb(255, 255, 255);
+    transition: .3s ease;
+
+}
+
+.twitter:hover{
+
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+
+    box-shadow: 0 0 20px rgb(255, 255, 255),
+                0 0 30px rgb(255, 255, 255),
+                0 0 20px rgb(0, 0, 0),
+                0 0 5px rgb(0, 0, 0);
+                
+
+}
+
+body{
+    width: 1280px;
+    height: 720px;
+    background: whitesmoke
+}
+
+
+.cuerpo{
+
+color: rgb(0, 0, 0);
+display: flex;
+
+
+}
+
+.saludo{
+    position: relative;
+    top: 50px; 
+    left: 15px; 
+    width: 152px;
+    height: 42px;
+    justify-content: space-between;
+    font-family: 'Unica One', cursive;
+    font-size: 30px;
+}
+
+.name{
+    position: relative;
+    top: 50px; 
+    left: 15px; 
+    width: 296px;
+    height: 89px;
+    justify-content: space-around;
+    font-family: 'Sarpanch', sans-serif;
+    font-size: 70px;
+}
+
+.lastname{
+    position: relative;
+    top: 20px; 
+    left: 15px; 
+    width: 185px;
+    height: 83px;
+    justify-content: space-between;
+    font-family: 'Sarpanch', sans-serif;
+    font-size: 70px;
+
+}
+.descripcion{
+    position: relative;
+    top: 50px; 
+    left: 15px; 
+    width: 550px;
+    height: 161px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Rosario', sans-serif;
+    font-size: 20px;
+}
+
+.imagen{
+    position: relative;
+    top: -20.97px; 
+    left: 60px;
+    width: 493px;
+    height: 480px;
+    justify-content: space-between;
+
+}
+
+.curva {
+
+    position: absolute;
+    width: 100%;
+    bottom: -60px;
+}
+
+.descargarCv {
+    width: 103px;
+    height: 17px;
+    display: inline-block; /* Agrega esto para que funcione como un botón */
+    text-align: center; /* Centra el contenido */
+    line-height: 17px; /* Centra verticalmente el contenido */
+    margin: 20px;
+    font-size: 14px;
+    border-radius: 10%;
+    padding: 10px;
+    box-shadow: 0px 7px 10px rgb(0, 0, 0);
+    transition: .3s ease;
+    font-family: 'Sarpanch', sans-serif;
+    border: 1.5px solid black;
+    text-decoration: none; /* Evita subrayar el enlace */
+    color: black; /* Color del texto */
+
+}
